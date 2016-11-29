@@ -21,7 +21,7 @@ body{
     background-color: #e6e6e6;
 }
 @font-face {
-    font-family: verdana;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul.left {
@@ -56,7 +56,7 @@ a {
  }
 
 .right {
-    font-family: Verdana,Geneva,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /* ref bra font fra http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
     position: relative;
     margin: 2% 10% 10% 10%;
