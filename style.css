@@ -1,6 +1,6 @@
 .left {
     position: fixed;
-    top: 0;
+    top: 25%;
     left: 0;
     width: 50px;
     transition: width ease .5s;
@@ -50,7 +50,7 @@ a {
     font-family: Verdana,Geneva,sans-serif;
     /* ref bra font fra http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
     position: relative;
-    margin: 10% 10% 10% 10%;
+    margin: 2% 10% 10% 10%;
     transition: margin-left ease 5s ;
 }
     body.open-nav {
