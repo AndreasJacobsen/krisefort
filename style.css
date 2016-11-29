@@ -34,18 +34,22 @@ ul.left {
 }
 
 li.left-li {
-    margin-bottom:50%;
+    margin-bottom:3%;
     background-color: #4CAF50;
     color: white;
-    padding: 16px;
+    padding: 5%;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
+a:visited
+{
+    color: whitesmoke;
+}
 
 
 a {
-    color: shade(darkslategray, 50%);
+    color: whitesmoke;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: color ease .35s,
