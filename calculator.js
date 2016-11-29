@@ -12,9 +12,7 @@ function calculator () {
          }
          var printCounter = counter.toString();
          // document.querySelector('results').innerHTML = 'Percentage complete: '+printCounter;
-         document.getElementById("results").innerHTML = "The game is " + counter +"% with GCAG" ;
-
-
+         document.getElementById("results").innerHTML = "The game is compatible " + counter +"% with GCAG" ;
      }
 
 }
