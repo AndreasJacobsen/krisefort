@@ -32,7 +32,12 @@ ul.left {
     margin-bottom: 10%;
 
 }
+.example-img{
+    align-content: center;
+    height: 28em;
+    width: 50em;
 
+}
 li.left-li {
     margin-bottom:3%;
     background-color: #4CAF50;
