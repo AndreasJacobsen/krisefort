@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="JSstyle.js"></script>
     <title>GCAG, inclusive game design.</title>
-
 </head>
 <body>
 <header>
@@ -12,15 +12,16 @@
         <div id="header">
         </div>
 </header>
+
 <div class="left">
-    <ul class="left">
+    <ul class="left" id="left">
         <li class="left-li"><a href="#WhyWeLoveGames">Why love games?</a></li>
         <li class="left-li"><a href="#Organiseres">Organiseres</a></li>
-        <li class="left-li"><a href="#Guidelines">The guidelines</a></li>
-        <li class="left-li"><a href="#Visual">Visual</a></li>
-        <li class="left-li"><a href="#Auditory">Auditory</a></li>
-        <li class="left-li"><a href="#Motorskill">Motorskils</a></li>
-        <li class="left-li"><a href="#Mobility">Modility</a></li>
+        <li class="left-li"><a href="#Guidelines">The guidelines</a>
+        <li class="left-li"><a href="#Visual">Visual</a>
+        <li class="left-li"><a href="#Auditory">Auditory</a>
+        <li class="left-li"><a href="#Motorskill">Motorskils</a>
+        <li class="left-li"><a href="#Mobility">Modility</a>
         <a href="#" class="open">&rarr; penisfjes</a>
     </ul>
 </div>
@@ -33,7 +34,7 @@
     <h3>Who dosen't love computer games? Most of us, and the rest just haven't found their first love game yet.</h3> <!-- ikke bruke h3 uten h1 og h2 først -->
     <a name="WhyWeLoveGames"></a>
     <div class="box-area">
-    <h3>Why do we love games? Seems like a silly question but we'll list some of our resons</h3>
+    <h2>Why do we love games? Seems like a silly question but we'll list some of our resons</h2>
     <ul> <!-- todo: legg til meta-descritipon tag for listen -->
         <li>Computer games entertain us</li>
         <li>When we sit alone in the dark, we can always log into our favorite game and talk to other humans or game characters</li>
@@ -44,7 +45,7 @@
         </div>
     <a name="Organiseres"></a>
     <div class="box-area">
-    <h3><font folor="red">Dette må organiseres til å se pent ut!</font></h3><br>
+    <h2>Dette må organiseres til å se pent ut!</h2><br>
     As you can tell games are amazing and we genuinely believe that they improve the life quality of countless people, everyone should share in the joy! <br>
     Since other gamers can't see you they judge you purely based on your skills, ignoring everything else. You teammates don't care if you sit in a wheelchair or 2000$ gaming chair. <br>
     But all is not well with games today, while the gaming is for all the games are often not made with  accessibility in mind. <br>
@@ -52,9 +53,7 @@
     But there are no "wcag" for games, it is up to the game company if they want to make the game inclusive, and far too often accessibility is being neglected. <br>
     We want games to be for everyone and made this website to use for all that make games, use games and review games. We have compiled guidelines on how to make games more accessible <br>
     It is our hope that with this gamemakers can easily see what to do to make their games more accessible, and game reviewers and buyers can start caring about accesibility when deciding what games to buy<br>
-    <iframe width="420" height="315"
-            src="https://www.youtube.com/watch?v=Ls_CD4mB42s">
-    </iframe>
+    <iframe src="https://www.youtube.com/embed/Ls_CD4mB42s"> 2 </iframe>
         </div>
     <a name="Guidelines"></a>
     <div class="box-area">
@@ -72,9 +71,9 @@
         <li>1.3 There should be settings to change menu fonts, subtitle font, font color, font size and subtitle location.</li>
         <li> <!-- todo: kristian legg inn indentation på alle jeg har sett en tab på. Dette kan defineres i css. http://www.w3schools.com/cssref/pr_text_text-indent.asp -->   1.3.1 Location of text should be changeable and not restricted to corners or bottoms of screen to accommodate players with tunnel vision.</li>
         <li>    1.3.2 When displaying data with both text and color represesentation there should be an option to enable various color blind modes. See <a href="http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/">types of color blindness</a> </li>
-        <li>1.4 Subtitles should be in or have the option to be in clear to see letterboxes</li>
+        <li>1.4 Subtitles should be in or have the option to be in clear to see letterboxes <input type="button" value="Show example" onclick="ShowImage();"> <input type="button" value="Hide example" onclick="HideImage();"></li>
         <!-- todo: regel for ord per minutt i subtitles -->
-        <img src="images/Nasty_Seeker.png"   height="224" width="400"/> <!-- todo: kristian legg denne inn pent, legg også inn en knapp for å se bildet i original størrelse -->
+        <img src="images/Nasty_Seeker.png" id="loadingImage" class="example-img" style="display:none"/> <!-- todo: kristian legg denne inn pent, legg også inn en knapp for å se bildet i original størrelse -->
 
     </ul>
         </div>
@@ -125,4 +124,8 @@
 
 </div>
 </body>
+<footer class="footer">
+    <p>Created by Kristian Munter Simonsen & Andreas Jacobsen for final project in Webproject - ADTS51200 <a href="www.hioa.no">Oslo and Akershus University College</a></p>
+
+</footer>
 </html>

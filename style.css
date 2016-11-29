@@ -32,7 +32,12 @@ ul.left {
     margin-bottom: 10%;
 
 }
+.example-img{
+    align-content: center;
+    height: 28em;
+    width: 50em;
 
+}
 li.left-li {
     margin-bottom:3%;
     background-color: #4CAF50;
@@ -42,11 +47,11 @@ li.left-li {
     border: none;
     cursor: pointer;
 }
+
 a:visited
 {
     color: whitesmoke;
 }
-
 
 a {
     color: whitesmoke;
@@ -71,7 +76,10 @@ a {
     font-family: 'Open Sans', sans-serif;
     /* ref bra font fra http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
     position: relative;
-    margin: 2% 10% 10% 10%;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 15%;
+    margin-bottom: 10%;
     /*transition: margin-left ease 5s ;*/
 }
     body.open-nav {
@@ -89,7 +97,10 @@ div#wrapperHeader div#header {
     height:200px;
     margin:0 auto;
 }
+iframe{
+    margin: 2% 28% 2% 28%
 
+}
 div#wrapperHeader div#header img {
     width:1156px; /* the width of the logo image */
     height:385px; /* the height of the logo image */
@@ -97,4 +108,25 @@ div#wrapperHeader div#header img {
 }
 h1{
     text-align: center;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+    height: 40px;
+    line-height: 1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0 5px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+    color: #999;
+    background: #343436;
+    border-top: 1px solid #3E3E3F;
+    z-index: 10;
 }
