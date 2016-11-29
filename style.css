@@ -15,15 +15,15 @@ body{
     font-family: verdana;
 }
 
-ul {
+ul.left {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin-bottom: 10%;
     background-color: hotpink;
 }
 
-li {
-    margin-bottom:25px;
+li.left-li {
+    margin-bottom:50%;
 }
 
 
@@ -73,4 +73,7 @@ div#wrapperHeader div#header img {
     width:1156px; /* the width of the logo image */
     height:385px; /* the height of the logo image */
     margin:0 auto;
+}
+h1{
+    text-align: center;
 }
