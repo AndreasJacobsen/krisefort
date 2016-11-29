@@ -133,3 +133,24 @@ div#wrapperHeader div#header img {
 h1{
     text-align: center;
 }
+footer{
+    font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+    height: 40px;
+    line-height: 1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0 5px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+    color: #999;
+    background: #343436;
+    border-top: 1px solid #3E3E3F;
+    z-index: 10;
+}
