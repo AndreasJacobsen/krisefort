@@ -96,12 +96,17 @@ a {
      font-weight:700;
      border:0;
  }
-
+.dropdowna{
+    background-color: #4CAF50;
+}
 .right {
     font-family: 'Open Sans', sans-serif;
     /* ref bra font fra http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
     position: relative;
-    margin: 2% 10% 10% 10%;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 15%;
+    margin-bottom: 10%;
     /*transition: margin-left ease 5s ;*/
 }
     body.open-nav {
