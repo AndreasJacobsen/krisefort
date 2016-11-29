@@ -32,6 +32,14 @@ ul.left {
     margin-bottom: 10%;
 
 }
+.box-area-calc{
+    padding: 2% 2% 2% 2%;
+    margin: 2% 10% 2% 10%;
+    background: #F0F0F0;
+    border-bottom: 10px solid #E2E2E2;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid #7B1801;
+}
 .example-img{
     align-content: center;
     height: 28em;
@@ -48,12 +56,12 @@ li.left-li {
     cursor: pointer;
 }
 
-a:visited
+.linkstyle:visited
 {
     color: whitesmoke;
 }
 
-a {
+a.linkstyle {
     color: whitesmoke;
     text-decoration: none;
     border-bottom: 1px solid transparent;
