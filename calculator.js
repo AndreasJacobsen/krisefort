@@ -10,11 +10,10 @@ function calculator () {
          }
           var printCounter = counter;
           printCounter = Math.ceil(printCounter);
-
-         document.getElementById("results").innerHTML = "The game is compatible " + printCounter +"% with GCAG" ;
-         document.getElementById("results1").innerHTML = "The game is compatible " + printCounter +"% with GCAG" ; }
-         document.getElementById("results2").innerHTML = "The game is compatible " + printCounter +"% with GCAG" ;
-         document.getElementById("results3").innerHTML = "The game is compatible " + printCounter +"% with GCAG" ;
-
+     }
+         document.getElementById("results").innerHTML = "The game is " + printCounter + "% compatible with GCAG";  
+         document.getElementById("results1").innerHTML = "The game is " + printCounter + "% compatible with GCAG";  
+         document.getElementById("results2").innerHTML = "The game is " + printCounter + "% compatible with GCAG"; 
+         document.getElementById("results3").innerHTML = "The game is " + printCounter + "% compatible with GCAG"; 
 
 }
