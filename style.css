@@ -9,11 +9,17 @@
 h2{
     text-align: center;
 }
+@media screen and (max-width:500px) {
+    .left {
+        top: 1%;
+        font-size: 100px;
+    }
+}
 .left {
     position: fixed;
     top: 25%;
     left: 0;
-    width: 10%;
+    width: 15%;
     transition: width ease .5s;
 }
 body.open-nav {
