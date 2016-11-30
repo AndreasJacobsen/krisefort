@@ -143,14 +143,14 @@ body.open-nav {
     height: 10%;
 }
 
-.videoWrapper {
+.video {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
 }
 
-.videoWrapper iframe {
+.video iframe {
     position: absolute;
     top: 0;
     left: 0;
