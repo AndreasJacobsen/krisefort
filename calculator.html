@@ -15,18 +15,22 @@
 
 <h1>GCAG calculator 1.0</h1>
 <div class="box-area-calc">
+    <!-- if the browser supports Javascript the instructions without the <script> tags will run, but if the browser does not support or have javascript disabled alternate instructions print using the <noscript> tag -->
     <noscript>
         <h2>Instructions</h2>
         Your browser does not support or you have disabled JavaScript, this calculator needs JavaScript to give
         out the percentage completion sum<br>
         Even though the calculator can't calculate by itself you can still use it and do the math yourself, it's
-        suprsingly easy.<br>
+        surprisingly easy.<br>
         Start with the value 0%, for every box you check add 3.7 to that value. If all boxes are checked you will end up
         with 100%, if half the boxes are checked you will end up with 50% etc.<br>
         Try to get as close to 100% as possible, if you made the game you are finding the score for you can display your
         final score as a testemant to how universally designet your game is; or as a pointer telling you what to fix<br>
     </noscript>
-    <script>document.write("<h2>Instructions</h2>");</script>
+    <script>document.write("<h2>Instructions</h2>");
+    document.write("The calculactor automatically adds up a percentage value when you select checkboxes <br> The highest possible value is 100%, try to get as close as you can!")
+    </script>
+
 </div>
 
 <div class="messageCheckbox">
