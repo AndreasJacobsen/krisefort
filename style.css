@@ -52,9 +52,11 @@ ul.left {
     width: 50em;
 
 }
+
 a:visited{
     color: black;
 }
+
 li.left-li {
     margin-bottom:3%;
     background-color: #4CAF50;
@@ -64,14 +66,24 @@ li.left-li {
     border: none;
     cursor: pointer;
 }
-
+.linkstyle-li:visited
+{
+    color: #000036;
+}
 .linkstyle:visited
 {
     color: whitesmoke;
 }
+a.linkstyle-li {
+    color: #000036;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color ease .35s,
+    border-bottom-color ease .35s;
+}
 
 a.linkstyle {
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: color ease .35s,
