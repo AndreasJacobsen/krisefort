@@ -10,17 +10,6 @@ h2 {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
-    .left {
-        top: 1%;
-        font-size: 100px;
-    }
-
-    .linkstyle-li {
-        font-size: 50px;
-    }
-}
-
 .left {
     position: fixed;
     top: 25%;
@@ -45,7 +34,7 @@ body {
 }
 
 @font-face {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana, sans-serif;
     /* ref great font from http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
 }
 
@@ -64,7 +53,6 @@ ul.left {
 }
 
 .example-img {
-    align-content: center;
     height: 28em;
     width: 50em;
 }
@@ -125,7 +113,7 @@ a.linkstyle {
 }
 
 .right {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana, sans-serif;
     /* ref great font from http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
     position: relative;
     margin-top: 2%;
