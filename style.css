@@ -6,21 +6,26 @@
     border-radius: 0 0 15px 15px;
     border-top: 1px solid #7B1801;
 }
-h2{
+
+h2 {
     text-align: center;
 }
-@media screen and (max-width:500px) {
+
+@media screen and (max-width: 500px) {
     .left {
         top: 1%;
         font-size: 100px;
     }
-    .linkstyle-li{
+
+    .linkstyle-li {
         font-size: 50px;
     }
-    .body{
+
+    .body {
         background-color: hotpink;
     }
 }
+
 .left {
     position: fixed;
     top: 25%;
@@ -28,29 +33,35 @@ h2{
     width: 15%;
     transition: width ease .5s;
 }
+
 body.open-nav {
-    width:250px;
+    width: 250px;
 }
-.linkstyle:visited{
-    color:darkred;
+
+.linkstyle:visited {
+    color: darkred;
 }
-a.linkstyle:visited{
+
+a.linkstyle:visited {
     color: ghostwhite;
 }
-body{
+
+body {
     background-color: #e6e6e6;
 }
+
 @font-face {
-    font-family: Verdana,Geneva,sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
+    /* ref great font from http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
 }
 
 ul.left {
     list-style: none;
     padding: 0;
     margin-bottom: 10%;
-
 }
-.box-area-calc{
+
+.box-area-calc {
     padding: 2% 2% 2% 2%;
     margin: 2% 10% 2% 10%;
     background: #F0F0F0;
@@ -58,17 +69,18 @@ ul.left {
     border-radius: 0 0 15px 15px;
     border-top: 1px solid #7B1801;
 }
-.example-img{
+
+.example-img {
     align-content: center;
     height: 28em;
     width: 50em;
-
 }
 
-a:visited{
+a:visited {
     color: black;
 }
-.left-calc{
+
+.left-calc {
     position: fixed;
     top: 25%;
     left: 0;
@@ -77,8 +89,9 @@ a:visited{
     list-style: none;
     padding: 0;
 }
+
 li.left-li {
-    margin-bottom:3%;
+    margin-bottom: 3%;
     background-color: #4CAF50;
     color: #000036;
     padding: 5%;
@@ -86,14 +99,15 @@ li.left-li {
     border: none;
     cursor: pointer;
 }
-.linkstyle-li:visited
-{
+
+.linkstyle-li:visited {
     color: #000036;
 }
-.linkstyle:visited
-{
+
+.linkstyle:visited {
     color: whitesmoke;
 }
+
 a.linkstyle-li {
     color: #000036;
     text-decoration: none;
@@ -111,34 +125,35 @@ a.linkstyle {
 }
 
 .left:hover {
-     color:white;
-     border-bottom-color:white;
- }
+    color: white;
+    border-bottom-color: white;
+}
 
 .left.open {
-     font-size:1.75rem;
-     font-weight:700;
-     border:0;
- }
+    font-size: 1.75rem;
+    font-weight: 700;
+    border: 0;
+}
 
 .right {
-    font-family: 'Open Sans', sans-serif;
-    /* ref bra font fra http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
+    font-family: Verdana, Geneva, sans-serif;
+    /* ref great font from http://www.bhavesads.com/webdesign/using-web-friendly-fonts.php */
     position: relative;
     margin-top: 2%;
     margin-right: 8%;
     margin-left: 15%;
     margin-bottom: 10%;
-    /*transition: margin-left ease 5s ;*/
 }
-    body.open-nav {
-    margin-left:275px; // push the right column further when left is opened
+
+body.open-nav {
+    margin-left: 275px;
+/ / push the right column further when left is opened
 }
+
 .header {
     width: 100%;
     height: 10%;
 }
-
 
 .videoWrapper {
     position: relative;
@@ -146,6 +161,7 @@ a.linkstyle {
     padding-top: 25px;
     height: 0;
 }
+
 .videoWrapper iframe {
     position: absolute;
     top: 0;
@@ -154,10 +170,15 @@ a.linkstyle {
     height: 100%;
 }
 
-h1{
+div.end {
+    padding-bottom: 2%;
+}
+
+h1 {
     text-align: center;
 }
-footer{
+
+footer {
     font-family: 'Open Sans', sans-serif;
     height: 5%;
     position: fixed;
