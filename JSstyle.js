@@ -22,3 +22,14 @@ function HideExample2() {
     document.getElementById('loadingImage1').style.display = 'none';
     document.getElementById("loadText1").style.display = 'none';
 }
+function ShowExample3(){
+    document.getElementById("sourceText1").innerHTML = "Image taken from <a href=\"http://www.eliteownage.com/images/mouse/rawinput_small.jpg\">eliteownage.com</a>";
+    document.getElementById('loadingImage2').style.display='block';
+    document.getElementById("loadText2").style.display='block';
+}
+
+function HideExample3() {
+    document.getElementById("sourceText1").style.display='none';
+    document.getElementById('loadingImage2').style.display = 'none';
+    document.getElementById("loadText2").style.display = 'none';
+}
