@@ -22,6 +22,9 @@ body.open-nav {
 .linkstyle:visited{
     color:darkred;
 }
+a.linkstyle:visited{
+    color: ghostwhite;
+}
 body{
     background-color: #e6e6e6;
 }
@@ -50,7 +53,7 @@ ul.left {
 
 }
 a:visited{
-    color: #999;
+    color: black;
 }
 li.left-li {
     margin-bottom:3%;
