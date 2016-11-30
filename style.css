@@ -29,7 +29,7 @@ body{
     background-color: #e6e6e6;
 }
 @font-face {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Verdana,Geneva,sans-serif;
 }
 
 ul.left {
@@ -58,9 +58,9 @@ a:visited{
 li.left-li {
     margin-bottom:3%;
     background-color: #4CAF50;
-    color: white;
+    color: #000036;
     padding: 5%;
-    font-size: 16px;
+    font-size: 120%;
     border: none;
     cursor: pointer;
 }
