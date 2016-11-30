@@ -12,14 +12,13 @@ function HideExample1() {
     document.getElementById("loadText").style.display = 'none';
 }
 function ShowExample2(){
-    document.getElementById("guntext").innerHTML = "The image below shows a weapon in an actual game. The game uses color coding to show how rare a weapon is, this is purple so it is rare. There is no other way for the player to know the rarity of a weapon than the color coding. <br>" +
-        "We can also see blue text and blue icons on a blue background providing poor contrast";
+    document.getElementById("sourceText").innerHTML = "Image taken from <a href=\"https://us.battle.net/support/en/article/7635\">Battlened support</a>";
     document.getElementById('loadingImage1').style.display='block';
     document.getElementById("loadText1").style.display='block';
 }
 
 function HideExample2() {
-    document.getElementById("guntext").style.display='none';
+    document.getElementById("sourceText").style.display='none';
     document.getElementById('loadingImage1').style.display = 'none';
     document.getElementById("loadText1").style.display = 'none';
 }
