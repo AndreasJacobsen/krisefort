@@ -14,6 +14,12 @@ h2{
         top: 1%;
         font-size: 100px;
     }
+    .linkstyle-li{
+        font-size: 50px;
+    }
+    .body{
+        background-color: hotpink;
+    }
 }
 .left {
     position: fixed;
@@ -62,7 +68,15 @@ ul.left {
 a:visited{
     color: black;
 }
-
+.left-calc{
+    position: fixed;
+    top: 25%;
+    left: 0;
+    width: 10%;
+    transition: width ease .5s;
+    list-style: none;
+    padding: 0;
+}
 li.left-li {
     margin-bottom:3%;
     background-color: #4CAF50;
@@ -125,8 +139,19 @@ a.linkstyle {
     height: 10%;
 }
 
-iframe{
-    margin: 2% 28% 2% 28%
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 h1{
