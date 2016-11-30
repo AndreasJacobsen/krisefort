@@ -40,10 +40,12 @@ ul.left {
     padding: 0;
     margin-bottom: 10%;
 }
-.spacing{
+
+.spacing {
     margin: 0 0 2% 0;
     list-style-type: none;
 }
+
 .box-area-calc {
     padding: 2% 2% 2% 2%;
     margin: 2% 10% 2% 10%;
@@ -153,9 +155,11 @@ div.end {
 h1 {
     text-align: center;
 }
-.htmlLogo{
+
+.htmlLogo {
     margin-left: 40%;
 }
+
 footer {
     font-family: 'Open Sans', sans-serif;
     height: 5%;
