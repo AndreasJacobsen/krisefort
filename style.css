@@ -40,7 +40,10 @@ ul.left {
     padding: 0;
     margin-bottom: 10%;
 }
-
+.spacing{
+    margin: 0 0 2% 0;
+    list-style-type: none;
+}
 .box-area-calc {
     padding: 2% 2% 2% 2%;
     margin: 2% 10% 2% 10%;
