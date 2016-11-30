@@ -47,6 +47,9 @@ ul.left {
     width: 50em;
 
 }
+a:visited{
+    color: #999;
+}
 li.left-li {
     margin-bottom:3%;
     background-color: #4CAF50;
