@@ -19,7 +19,9 @@ h2{
 body.open-nav {
     width:250px;
 }
-
+.linkstyle:visited{
+    color:darkred;
+}
 body{
     background-color: #e6e6e6;
 }
@@ -137,7 +139,7 @@ footer{
     -ms-flex-align: center;
     align-items: center;
     white-space: nowrap;
-    color: #999;
+    color: ghostwhite;
     background: #343436;
     border-top: 1px solid #3E3E3F;
     z-index: 10;
