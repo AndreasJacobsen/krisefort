@@ -6,7 +6,7 @@
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta name="author" content="Oslo and Akershus University College of Applied Siences - Andreas Jacobsen & Kristian Munter Simonsen">
     <link rel="stylesheet" type="text/css" href="style.css" hreflang="en">
-    <script src="JSstyle.js" charset="UTF-8" type="javascript"></script>
+    <script src="JSstyle.js" charset="UTF-8" type="text/javascript"></script>
     <title>GCAG, inclusive game design.</title>
 </head>
 <body>
@@ -21,23 +21,22 @@
     <ul class="left" id="left">
         <li class="left-li"><a class="linkstyle" href="#WhyWeLoveGames">Why love games?</a></li>
         <li class="left-li"><a class="linkstyle" href="#Organiseres">Organiseres</a></li>
-        <li class="left-li"><a class="linkstyle" href="#Guidelines">The guidelines</a>
-        <li class="left-li"><a class="linkstyle" href="#Visual">Visual</a>
-        <li class="left-li"><a class="linkstyle" href="#Auditory">Auditory</a>
-        <li class="left-li"><a class="linkstyle" href="#Motorskill">Motorskils</a>
-        <li class="left-li"><a class="linkstyle" href="#Mobility">Modility</a>
+        <li class="left-li"><a class="linkstyle" href="#Guidelines">The guidelines</a></li>
+        <li class="left-li"><a class="linkstyle" href="#Visual">Visual</a></li>
+        <li class="left-li"><a class="linkstyle" href="#Auditory">Auditory</a></li>
+        <li class="left-li"><a class="linkstyle" href="#Motorskill">Motorskils</a></li>
+        <li class="left-li"><a class="linkstyle" href="#Mobility">Modility</a></li>
     </ul>
 </div>
 
 <!-- !navbar-->
-<div class="right">
+<div class="right">    <!-- ALT som ikke skal i menyen skal inni denne diven-->
+
     <h1>Our love for the games</h1>
     <h1>Hello world!</h1>
-    <!-- ALT som ikke skal i menyen skal inni denne diven-->
-    <a name="WhyWeLoveGames"></a>
-    <div class="box-area">
+    <div class="box-area" id="WhyWeLoveGames">
     <h2>Why do we love games? Seems like a silly question but we'll list some of our resons</h2>
-    <ul alt="Reasons why people love games." content="List of why people love games."> <!-- todo: legg til meta-descritipon tag for listen -->
+    <ul  content="List of why people love games."> <!-- todo: legg til meta-descritipon tag for listen -->
         <li>Computer games entertain us</li>
         <li>When we sit alone in the dark, we can always log into our favorite game and talk to other humans or game characters</li>
         <li>Games don't care how you feel or how you look, they are always there for you.</li>
@@ -45,8 +44,8 @@
         <li>Other gamers will usually not care about how many friends you have, if you are getting picked on or your race; they'll play with you any how</li>
     </ul>
         </div>
-    <a name="Organiseres"></a>
-    <div class="box-area">
+
+    <div class="box-area" id="Organiseres">
     <h2>Dette må organiseres til å se pent ut!</h2><br>
     As you can tell games are amazing and we genuinely believe that they improve the life quality of countless people, everyone should share in the joy! <br>
     Since other gamers can't see you they judge you purely based on your skills, ignoring everything else. You teammates don't care if you sit in a wheelchair or 2000$ gaming chair. <br>
@@ -59,15 +58,13 @@
         <noscript><h3>Your browser does not support or you have disabled JavaScript, this content where showing how Playstation has worked to imporve accesibility to all players. Please refer to
             <a href="https://youtu.be/Ls_CD4mB42s">https://youtu.be/Ls_CD4mB42s</a> for original content</h3></noscript>
         </div>
-    <a name="Guidelines"></a>
-    <div class="box-area">
+    <div class="box-area" id="Guidelines">
     <h2 >The guidelines</h2>
     These guidelines are divided into sections based on our senses. Follow as many of them as possible. <br>
     Based on a <a href="http://www.includification.com/AbleGamers_Includification.pdf">AbleGamers Chartiy paper</a> and <a href="http://www.brannonz.com/accessibility/disabilities.html">brannonz.com/accessibility/disabilities</a> these guidelines were heavily influenced by these sources and they deserve credit for their work. <br>
     Rule text based on the layout and text of the <a href="https://www.w3.org/TR/WCAG20/">WCAG 2.0 rules</a>
     </div>
-    <a name="Visual"></a>
-    <div class="box-area">
+    <div class="box-area" id="Visual">
     <h2 >Visual</h2>
     <ul content="Visual guidelines - Games Content Accessibility Guidelines">
         <li>1.1 Color should never be used as the only visual means to convey information, indicating an action, prompting a response, or distinguishing a visual element.</li>
@@ -77,15 +74,13 @@
         <li>1.3.2 When displaying data with both text and color represesentation there should be an option to enable various color blind modes. See <a href="http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/">types of color blindness</a> </li>
         <li>1.4 Subtitles should be in or have the option to be in clear to see letterboxes <input type="button" value="Show example" onclick="ShowImage();"> <input type="button" value="Hide example" onclick="HideImage();"></li>
         <!-- todo: regel for ord per minutt i subtitles -->
-        <div id="loadText"  style="display:none">LoL</div><noscript><h3>Your browser does not support or you have disabled JavaScript, this content where ment to show an example from borderlands where color is the only way information is given.</h3></noscript>
-        <img src="images/Nasty_Seeker.png" id="loadingImage" class="example-img" longdesc="Image expample of how color is the only way to aquire vital information in Borderlands 2." alt="Picture of a guns rarety baesd only on colour" style="display:none"/> <!-- todo: kristian legg denne inn pent, legg også inn en knapp for å se bildet i original størrelse -->
-
     </ul>
+        <img src="images/Nasty_Seeker.png" id="loadingImage" class="example-img" longdesc="Image expample of how color is the only way to aquire vital information in Borderlands 2." alt="Picture of a guns rarety baesd only on colour" style="display:none"/> <!-- todo: kristian legg denne inn pent, legg også inn en knapp for å se bildet i original størrelse -->
+        <noscript><h3>Your browser does not support or you have disabled JavaScript, this content where ment to show an example from borderlands where color is the only way information is given.</h3></noscript>
         </div>
-        <a name="Auditory"></a>
-    <div class="box-area">
+    <div class="box-area" id="Auditory">
     <h2>Auditory</h2>
-    <ul alt="Auditory guidelines - Games Content Accessibility Guidelines">
+    <ul content="Auditory guidelines - Games Content Accessibility Guidelines">
         <li>2.1 No information needed for game progression should be solely represented by audio.</li>
         <li>2.2 Speech and important sound events should be subtitled.</li>
         <li>2.2.1 It should be easy to enable subtitles.</li>
@@ -99,8 +94,7 @@
     </ul>
         </div>
 
-    <a name="Motorskill"></a>
-    <div class="box-area">
+    <div class="box-area" id="Motorskill">
     <h2>Motorskill</h2>
     <ul  content="Motorskills guidelines - Games Content Accessibility Guidelines">
         <li>3.1 All keys used in game should be re-mappable and the game can auto-detect keys pressed when remapping.</li>
@@ -111,8 +105,7 @@
         <li>3.7 The game does not require the user to input multiple simultaneous inputs or let the user solve these tasks in other ways.</li>
     </ul>
     </div>
-        <a name="Mobility"></a>
-    <div class="box-area">
+    <div class="box-area" id="Mobility">
     <h2>Mobility</h2>
     <ul  content="Mobility guidelines - Games Content Accessibility Guidelines">
         <li>4.1 The game can be started without having to navigate multiple levels of menues.</li>
@@ -122,8 +115,7 @@
         <li>4.5 The player can move and re-size on screen information elements like HUD's and minimaps. </li>
     </ul>
     </div>
-    <a name="UniversalDesign"></a>
-                <div class="box-area">
+                <div class="box-area" id="UniversalDesign">
                     <h2>Universal design</h2>
                 This site is dedicated to accessibility we also wish to discuss universal design, following the accessibility guidelines here will help you achieve greater universal design, but does not encompass all of universal design.
                     <br> Even though we probably never will reach complete universal design, we should as game designer strive towards as universal design as possible; and as consumer demand universal design in the products we buy.<br>
@@ -134,10 +126,7 @@
                 <!-- Navbar -->
 
 
-
+</div>
 </body>
-<footer class="footer">
-    Created by Kristian Munter Simonsen & Andreas Jacobsen for final project in Webproject - ADTS1200 2016 - <a href="http://www.hioa.no/" class="linkstyle"> Oslo and Akershus University College </a>
-
-</footer>
+<footer class="footer"> Created by Kristian Munter Simonsen & Andreas Jacobsen for final project in Webproject - ADTS1200 2016 - <a href="http://www.hioa.no/" class="linkstyle"> Oslo and Akershus University College</footer>
 </html>
