@@ -29,7 +29,18 @@ function ShowExample3(){
 }
 
 function HideExample3() {
-    document.getElementById("sourceText1").style.display='none';
+    document.getElementById("sourceText2").style.display='none';
     document.getElementById('loadingImage2').style.display = 'none';
-    document.getElementById("loadText2").style.display = 'none';
+    document.getElementById("loadText3").style.display = 'none';
+}
+function ShowExample4(){
+    document.getElementById("sourceText2").innerHTML = "Start menu in a game with very few options right from the menu. It is easy for the player to start the game.</a>";
+    document.getElementById('loadingImage3').style.display='block';
+    document.getElementById("loadText3").style.display='block';
+}
+
+function HideExample4() {
+    document.getElementById("sourceText2").style.display='none';
+    document.getElementById('loadingImage3').style.display = 'none';
+    document.getElementById("loadText3").style.display = 'none';
 }
